@@ -20,7 +20,7 @@ A sleek and efficient task management application designed to help users organiz
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/junior-task-manager.git
+git clone https://github.com/karnettii123/junior-task-manager.git
 
 ```
 
@@ -39,4 +39,4 @@ Simply open `index.html` in your favorite browser or use the **Live Server** ext
 
 **Danylo Digavtsov** — Junior Front-End Developer.
 
-* **GitHub:** @karnettii
+* **GitHub:** @karnettii123
