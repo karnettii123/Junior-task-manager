@@ -39,4 +39,4 @@ Simply open `index.html` in your favorite browser or use the **Live Server** ext
 
 **Danylo Digavtsov** — Junior Front-End Developer.
 
-* **GitHub:** [@karnettii(https://www.google.com/search?q=https://github.com/your-username)
+* **GitHub:** @karnettii
