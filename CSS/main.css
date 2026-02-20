@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 30px;
+    background-color: rgb(210, 241, 255);
+    color: #000000;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 100vw;
+}
+
+#task-form{
+    background-color: rgb(223, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgb(152, 235, 250);
+    height: 100px;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.form {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+#input-task{
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+#input-task:focus{
+    outline: none;
+}
+
+#select-priority{
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#button{
+    border-radius: 5px;
+    border: 1px solid;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.2s ease;
+}
+
+#button:active{
+    transform: scale(0.9);
+}
