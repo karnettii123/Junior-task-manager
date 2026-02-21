@@ -4,30 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Junior Task Manager</title>
     <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
     <header>
-        <h1>Junior task manager</h1>
+        <h1>JUNIOR TASK MANAGER</h1>
     </header>
     <main>
         <section class="task-form">
-            <img src="https://img.freepik.com/free-photo/lowland-gorilla-black-background-remixed-from-photography-by-jessie-cohen_53876-139791.jpg?semt=ais_hybrid&w=740&q=80">
+            
             <form id="task-form">
-                <div class="form">
-                <input placeholder="Input your Task" type="text" name="task-name" id="input-task">
 
-                <select class="priority" name="select-priority" id="select-priority">
+                <div class="form">
+
+                    <div class="field">
+                    <label for="input-task" id="task">Task</label>
+                    <input placeholder="Input your Task" type="text" name="task-name" id="input-task">
+                    </div>
+
+                    <div class="field">
+                    <label for="select-priority" id="priority">Priority</label>
+                    <select class="priority" name="select-priority" id="select-priority">
                     <option>Low</option>
                     <option>Medium</option>
                     <option>High</option>
-                </select>
+                    </select>
+                    </div>
 
-                <button type="submit" id="button">Добавить</button>
+                    <div class="field">
+                    <label for="button" id="add">Add</label>
+                    <button type="submit" id="button" name="button">+</button>
+                    </div>
+
                 </div>
+
             </form>
-            <img src="https://focus.ua/static/storage/thumbs/x600/d/cc/n2rsgb-57bfb71b162061555dbed9f269836ccd.jpg?v=7547_1">
         </section>
 
         <section class="task-list">
@@ -35,7 +48,8 @@
             <div class="task">
                 <h3>Cделать верстку</h3>
                 <div>Описание задачи</div>
-                <div class="task-info"></div>
+                <br><br>
+                <div class="task-info">date : 21.02.2026</div>
             </div>
 
         </section>
