@@ -31,7 +31,7 @@ header{
     background-color: #1f3854;
     border-radius: 5px;
     height: 100px;
-    max-width: 450px;
+    max-width: 750px;
     width: 100%;
     box-shadow: 0 0px 20px #6daad869;
     display: flex;
@@ -57,7 +57,7 @@ header{
 }
 
 #input-task::placeholder{
-    color: #c9dbe9;
+    color: #c9dbe99c;
 
 }
 
@@ -78,6 +78,7 @@ header{
 }
 
 #select-priority{
+    width: 60px;
     height: 27px;
     color: #c9dbe9;
     outline: none;
@@ -136,3 +137,33 @@ header{
     font-size: 15px;
 }
 
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#h3::placeholder{
+    color: #c9dbe99c;
+
+}
+
+#h3{
+    padding-left: 10px;
+    color: #c9dbe9;
+    background-color: #1f3854;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+
+}
+
+#h3:focus{
+    outline: none;
+    background-color: #4b708d;
+}
+
+.task-info{
+    margin-top: 1%;
+}
