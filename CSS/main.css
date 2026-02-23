@@ -122,6 +122,9 @@ header{
 }
 
 .task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-right: 10%;
     margin-left: 10%;
     width: 80%;
@@ -166,4 +169,63 @@ header{
 
 .task-info{
     margin-top: 1%;
+}
+
+.priority-list{
+    margin-right: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.priority-list button{
+    height: 27px;
+    width: 70px;
+    font-size: 13px;
+    color: #c9dbe9;
+    background-color: #1f3854;
+    border-radius: 5px;
+    border: 1px solid #243c57;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.priority-list button:hover{
+    cursor: pointer;
+    background-color:#4b708d;
+}
+
+.priority-list button:active{
+    transform: scale(0.9);
+}
+
+.priority-list div{
+    text-align: center;
+    line-height: 27px;
+    height: 27px;
+    width: 70px;
+    background-color: #1f3854;
+    border-radius: 5px;
+    border: 1px solid #243c57;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+}
+
+.task-info{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.Low{
+    background-color: green;
+}
+
+.Medium{
+    background-color: yellow;
+}
+
+.High{
+    background-color: red;
 }
