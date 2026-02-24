@@ -218,14 +218,7 @@ header{
     flex-direction: column;
 }
 
-.Low{
-    background-color: green;
-}
-
-.Medium{
-    background-color: yellow;
-}
-
-.High{
-    background-color: red;
+.date {
+    color: #c9dbe9d3;
+    font-style: italic;
 }
