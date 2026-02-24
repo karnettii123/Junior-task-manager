@@ -60,4 +60,7 @@ const h3Value = h3.value;
 
 if(checkform(inputValue, h3Value)){
 formcreate(h3Value, inputValue, priorityValue);
+
+input.value = ""
+h3.value = ""
 }});
